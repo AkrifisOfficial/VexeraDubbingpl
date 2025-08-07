@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "Магическая битва",
+    "cover": "https://sun9-36.userapi.com/impg/c858216/v858216436/1e1a1d/GoRFLmQoUOQ.jpg",
+    "description": "Юдзи Итадори становится сосудом для могучего проклятия Рюмена Сукуны.",
+    "year": "2020",
+    "status": "Онгоинг",
+    "rating": "4.9",
+    "genres": ["Сёнэн", "Боевик", "Сверхъестественное"],
+    "episodes": [
+      {
+        "id": 1,
+        "title": "Рюмен Сукуна",
+        "vk_url": "https://vk.com/video-231399388_456239017"
+      },
+      {
+        "id": 2,
+        "title": "Для себя",
+        "vk_url": "https://vk.com/video-190258751_456239020"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Человек-бензопила",
+    "cover": "https://sun9-45.userapi.com/impg/c857736/v857736436/1e1a1d/5XJQZ9X9Q6I.jpg",
+    "description": "Дэнджи мечтает жить обычной жизнью, но вынужден охотиться на демонов.",
+    "year": "2022",
+    "status": "Завершен",
+    "rating": "4.8",
+    "genres": ["Сёнэн", "Ужасы", "Приключения"],
+    "episodes": [
+      {
+        "id": 1,
+        "title": "Собака и бензопила",
+        "vk_url": "https://vk.com/video-190258751_456239021"
+      },
+      {
+        "id": 2,
+        "title": "Прибытие в Токио",
+        "vk_url": "https://vk.com/video-190258751_456239022"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Атака титанов",
+    "cover": "https://sun9-79.userapi.com/impg
