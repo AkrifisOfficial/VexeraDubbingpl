@@ -1,14 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Тестовое аниме",
-    "cover": "https://via.placeholder.com/300x450",
-    "episodes": [
-      {
-        "id": 1,
-        "title": "Тестовая серия",
-        "vk_url": "https://vk.com/video-231399388_456239017"
-      }
-    ]
+    "title": "Наруто: Ураганные хроники",
+    "episode": 1,
+    "vk_video_url": "https://vk.com/video-231399388_456239017",
+    "thumbnail": "https://example.com/naruto-thumb.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Наруто: Ураганные хроники",
+    "episode": 2,
+    "vk_video_url": "https://vk.com/video-231399388_456239017",
+    "thumbnail": "https://example.com/naruto-thumb2.jpg"
   }
 ]
