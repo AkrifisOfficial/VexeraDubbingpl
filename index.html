@@ -1,66 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VexeraDubbing - Плеер аниме с VK</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://vk.com/js/api/openapi.js?169" type="text/javascript"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VexeraDubbing - Главная</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1><i class="fas fa-play-circle"></i> VexeraDubbing</h1>
-            <div class="search-bar">
-                <input type="text" id="search-input" placeholder="Поиск аниме...">
-                <button id="search-btn"><i class="fas fa-search"></i></button>
-            </div>
-        </div>
-    </header>
+  <div class="container">
+    <h1>VexeraDubbing - Плеер</h1>
+    
+    <div class="player-container">
+      <div class="video-container">
+        <iframe id="video-player" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <div class="episode-list">
+        <h2>Эпизоды</h2>
+        <ul id="episodes"></ul>
+      </div>
+    </div>
+  </div>
 
-    <main class="container">
-        <section id="anime-list" class="anime-grid"></section>
-        
-        <section id="player-section" class="hidden">
-            <div class="player-header">
-                <button id="back-btn" class="btn"><i class="fas fa-arrow-left"></i> Назад</button>
-                <h2 id="anime-title"></h2>
-            </div>
-            
-            <div id="video-container">
-                <div id="video-placeholder">
-                    <i class="fas fa-play-circle"></i>
-                    <p>Выберите серию для просмотра</p>
-                </div>
-            </div>
-            
-            <div class="player-meta">
-                <div id="anime-info">
-                    <img id="anime-cover" src="" alt="Обложка аниме">
-                    <div>
-                        <p><i class="fas fa-calendar-alt"></i> <span id="anime-year"></span></p>
-                        <p><i class="fas fa-tags"></i> <span id="anime-genres"></span></p>
-                        <div id="rating-widget"></div>
-                    </div>
-                </div>
-                
-                <div class="episode-list">
-                    <h3><i class="fas fa-list-ol"></i> Серии:</h3>
-                    <div id="episodes"></div>
-                </div>
-            </div>
-            
-            <div class="social-actions">
-                <button id="telegram-share" class="btn telegram-btn">
-                    <i class="fab fa-telegram"></i> Поделиться
-                </button>
-            </div>
-            
-            <div id="vk-comments"></div>
-        </section>
-    </main>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
